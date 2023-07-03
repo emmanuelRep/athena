@@ -1,0 +1,59 @@
+body{
+    background-color: #0C134F;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    border: 1px solid #D4ADFC;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    background-color: #D4ADFC;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+
+.title{
+    display: flex;
+    font-size: 20pt;
+}
+
+.textfield{
+    height: 30px;
+    width: 250px;
+    border: 1px solid #D4ADFC;
+    border-radius: 4px;
+}
+
+.signin-btn{
+    height: 30px;
+    border: 1px solid #1D267D;
+    background-color: #1D267D;
+    color: white;
+    border-radius: 4px;
+}
+
+.signin-btn:hover{
+    cursor: pointer;
+    background-color: #2CD3E1;
+    border: 1px solid #2CD3E1;
+    padding: 2px;
+    transition: 1.2s;
+}
